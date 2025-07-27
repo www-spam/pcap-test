@@ -1,15 +1,10 @@
-CC = gcc
-CFLAGS = -Wall -O2
 LDLIBS += -lpcap
 
-TARGET = pcap-test
-OBJS = pcap-test.o
+all: pcap-test
 
-all: $(TARGET)
-
-$(TARGET): $(OBJS)
+pcap-test: pcap-test.o
 
 pcap-test.o: pcap-test.c pcap-test.h
 
 clean:
-	rm -f $(TARGET) $(OBJS)
+	rm -f pcap-test *.o
