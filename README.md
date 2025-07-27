@@ -19,7 +19,8 @@ thread 2 : $ sudo tcpreplay -i dum0 h4mg.pcap
 ```
 
 ## Vedio
-[Youtube Link](https://youtu.be/WpXeyJShsVA)   
+[Youtube Link](https://youtu.be/I6xyfYEDXOI)   
+
 
 ## 과제 수행 사진
 <img width="2628" height="1429" alt="Image" src="https://github.com/user-attachments/assets/efe9af46-8516-4a67-a3fb-75bd4f6ed250" />
